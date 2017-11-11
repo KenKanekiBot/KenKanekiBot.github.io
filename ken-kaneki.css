@@ -1,0 +1,41 @@
+a, html, body, h1, h2, h3, h4, h5, p {
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body { background: #191919; }
+main { display:flex; flex-direction: column; align-items: center; }
+b, a { color: rgb(0, 0, 0); }
+b, a, p { font-size: 20px; }
+a { text-decoration: none; }
+h2 { font-size: 37px; }
+p { color: rgba(0, 0, 0, 0.6); }
+
+.background {
+  background: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  filter: blur(5px) brightness(50%);
+}
+
+.partners_background {
+  background: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center_text {
+  width: 100%;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Credits to shaz for code
